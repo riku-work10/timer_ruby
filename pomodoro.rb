@@ -1,8 +1,9 @@
 require './timer_base'
 
+MINUTES = 25
 # ポモドーロクラス
 class Pomodoro < TimerBase
-  def initialize(minutes: 25)
+  def initialize(minutes: MINUTES)
     super
   end
 end

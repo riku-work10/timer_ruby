@@ -1,3 +1,4 @@
+
 class TimerBase
   def initialize(minutes:) #minutesは指定できる
     @end_time = Time.now + minutes * 60  #秒単位での処理となるため60をかけている
